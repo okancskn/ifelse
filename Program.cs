@@ -13,5 +13,7 @@
 
         string sonuc = time>=6 && time<13 ? "xGunaydin!" : time <=18 ? "xIyi Günler!" : "xIyi Aksamlar!";
         Console.WriteLine(sonuc);
+
+        Console.WriteLine("*****Program Sonu*****");
     }
 }
