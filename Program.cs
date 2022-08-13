@@ -15,5 +15,23 @@
         Console.WriteLine(sonuc);
 
         Console.WriteLine("*****Program Sonu*****");
+
+        int N = Convert.ToInt32(Console.ReadLine().Trim());      
+        bool odd = N%2==1 ? true : false;
+        
+        if(N>= 1 && N<=100)
+        {
+        if(odd)
+        Console.WriteLine("Weird");
+        else if(!odd && N>=2 && N<=5)
+        Console.WriteLine("Not Weird");
+        else if(!odd && N>=6 && N<=20)
+        Console.WriteLine("Weird");
+        else
+        Console.WriteLine("Not Weird");
+        }
+        
+        else
+        Console.WriteLine("1 ile 100 arasinde bir sayi giriniz!");
     }
 }
